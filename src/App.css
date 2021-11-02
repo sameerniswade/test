@@ -1,0 +1,44 @@
+.counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #777;
+  font-size: 8rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 80px;
+}
+h1 {
+  font-size: 2rem;
+}
+.buttonCounter {
+  margin: 5rem;
+  padding: 80px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+}
+
+.empCardsCmp {
+}
+.empCards {
+  /* margin: 3rem;
+  display: flex;
+  flex-wrap: wrap; */
+
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.empCard {
+  margin: 1rem;
+  color: #777;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
